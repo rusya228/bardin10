@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F79AFF"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/test"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="875px"
+            android:layout_height="200px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="200px"
+            android:background="@drawable/test2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70px"
+                app:srcCompat="@drawable/__2022_05_08_195301" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="500px"
+                android:layout_marginTop="-140px"
+                android:text="маршруты"
+                android:textColor="#890794"
+                android:textSize="60px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="875px"
+            android:layout_height="200px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="100px"
+            android:background="@drawable/test2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="140px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40px"
+                app:srcCompat="@drawable/__2022_05_08_195310" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200px"
+                android:layout_marginTop="-140px"
+                android:text="краткая ифнормация"
+                android:textColor="#890794"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/__2022_05_08_200357"
+                android:layout_marginLeft="815px"
+                android:layout_marginTop="-60px"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="378dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__2022_05_08_194244" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="16dp"
+        android:text="112576 steps"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__2022_05_08_194609" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
